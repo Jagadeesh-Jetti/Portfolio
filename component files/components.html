@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Basic component library</h1>
+    <p>I am tryin to create a component library that consists various things that can make all projects simple.</p>
+    <hr>
+
+
+    <h2>@Typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p> This is the normal text. This is free flowing and will wrap at the end like a paragraph. </p>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
+    <small>This is used by small element text</small>
+    <hr>
+
+
+
+    <h2>@Container</h2>
+
+    <h3>Fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
+
+    <h3>Center container</h3>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <p> This list will not have the bullet</p>
+
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+
+    </ul>
+
+    <h3> unordered inline list</h3>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3> reverse ordered list</h3>
+
+    <ol reversed>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>break</li>
+    </ol>
+
+    <hr />
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" />
+        <h1 class="hero-heading">Jagadeesh the <span class="heading-inverted"> web developer</span></h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>Vijay, born Joseph Vijay Chandrasekhar, is an Indian film actor, playback singer and philanthropist who works in the Tamil film industry. 
+                He is popularly known by his fans as Ilayathalapathy or Thalapathy and is one of the most popular and influential actors of Tamil cinema. 
+                Vijay initially appeared as a child actor in a number of his father S. A. Chandrasekhar's films, starting with Vetri (1984). 
+                He made his debut as a lead actor in Naalaya Theerpu (1992), which was also directed by his father. 
+                He received his breakthrough with Poove Unakkaga (1996) and Kadhalukku Mariyadhai (1997). 
+                He went on to act in other commercially successful films such as Thulladha Manamum Thullum (1999), Kushi (2000), Friends (2001), Thirumalai (2003), 
+                Ghilli (2004), Pokkiri (2007), Nanban (2012), Thuppakki (2012), Kaththi (2014) and Theri (2016), which rank among the highest-grossing Tamil films. 
+                To date, he has acted in 60 movies as a lead actor and has won three Tamil Nadu State Film Awards, seven Vijay Awards and two Edison Awards. 
+                Vijay is also a playback singer and has sung a couple of songs for his movies.</p></p>
+        </div>
+
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>Vijay, born Joseph Vijay Chandrasekhar, is an Indian film actor, playback singer and philanthropist who works in the Tamil film industry. 
+                He is popularly known by his fans as Ilayathalapathy or Thalapathy and is one of the most popular and influential actors of Tamil cinema. 
+                Vijay initially appeared as a child actor in a number of his father S. A. Chandrasekhar's films, starting with Vetri (1984). 
+                He made his debut as a lead actor in Naalaya Theerpu (1992), which was also directed by his father. 
+                He received his breakthrough with Poove Unakkaga (1996) and Kadhalukku Mariyadhai (1997). 
+                He went on to act in other commercially successful films such as Thulladha Manamum Thullum (1999), Kushi (2000), Friends (2001), Thirumalai (2003), 
+                Ghilli (2004), Pokkiri (2007), Nanban (2012), Thuppakki (2012), Kaththi (2014) and Theri (2016), which rank among the highest-grossing Tamil films. 
+                To date, he has acted in 60 movies as a lead actor and has won three Tamil Nadu State Film Awards, seven Vijay Awards and two Edison Awards. 
+                Vijay is also a playback singer and has sung a couple of songs for his movies.</p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialone
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialtwo
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    socialthree
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+
+    </div>
+</body>
+
+</html>
